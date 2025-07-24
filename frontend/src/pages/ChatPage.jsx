@@ -23,7 +23,7 @@
 // //   useEffect(() => {
 // //     const fetchVerifiedUsers = async () => {
 // //       try {
-// //         const res = await axios.get('http://localhost:5000/api/users/verified');
+// //         const res = await axios.get('https://secure-chat-tawny.vercel.app/verified');
 // //         const others = res.data.filter(user => user.email !== currentEmail);
 // //         setVerifiedUsers(others);
 // //       } catch (error) {
