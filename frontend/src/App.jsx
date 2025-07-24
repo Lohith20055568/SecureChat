@@ -11,8 +11,8 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Signup />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/signin" element={<Signin />} />
+      <Route path="/Signup" element={<Signup />} />
+      <Route path="/Signin" element={<Signin />} />
       <Route path="/verify-otp" element={<OtpVerify />} />
       <Route path="/fingerprint" element={<FingerprintVerify />} />
       <Route path="/home" element={<Home />} />
