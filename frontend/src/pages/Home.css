@@ -1,0 +1,59 @@
+/* src/pages/Home.css */
+.home-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fb;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #1e1e2f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.sidebar button:hover {
+  background-color: #2d2d45;
+}
+
+.sidebar-bottom {
+  margin-top: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 50px 60px;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+.main-content p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}

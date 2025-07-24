@@ -1,0 +1,57 @@
+/* src/pages/VerifiedUsers.css
+.verified-users-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.verified-users-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.verified-users-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.verified-users-container li {
+  background: #f1f1f1;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 15px;
+} */
+.verified-users-container {
+  padding: 20px;
+  color: #fff;
+  background-color: #1e2a38;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2d3e50;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.status-badge {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.online {
+  color: #00ff90;
+}
+
+.offline {
+  color: #ff5e5e;
+}

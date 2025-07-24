@@ -1,0 +1,42 @@
+.fingerprint-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f2faff, #e0f7fa);
+}
+
+.fingerprint-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 360px;
+}
+
+.fingerprint-box h2 {
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.fingerprint-box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.fingerprint-box button {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.fingerprint-box button:hover {
+  background-color: #005f99;
+}

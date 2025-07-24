@@ -1,0 +1,51 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Logo Enhancements (if you use logos) */
+.logo {
+  height: 5em;
+  margin-bottom: 1rem;
+  transition: filter 300ms ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1rem #38bdf8cc);
+}
+
+/* Optional React logo spin */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo.react {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styling */
+.card {
+  padding: 1.5rem;
+  background-color: #1e293b;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+
+/* For any extra messages/info blocks */
+.read-the-docs {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
