@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Signup from './pages/SignUp';
-import Signin from './pages/Signin';
+import Signin from './pages/SignIn';
 import Home from './pages/Home';
 import OtpVerify from './pages/OtpVerify';
 import FingerprintVerify from './pages/FingerprintVerify';
@@ -12,7 +12,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Signup />} />
       <Route path="/Signup" element={<SignUp />} />
-      <Route path="/Signin" element={<Signin />} />
+      <Route path="/Signin" element={<SignIn />} />
       <Route path="/verify-otp" element={<OtpVerify />} />
       <Route path="/fingerprint" element={<FingerprintVerify />} />
       <Route path="/home" element={<Home />} />
